@@ -18,7 +18,7 @@ This repository contains the code and documentation for the "Energy Saving Syste
 
 ### 3. Real-time Image Analysis
 
-- Implemented real-time image analysis using OpenCV and TensorFlow.
+- Implemented real-time image analysis using OpenCV and PyTorch.
 - Enabled quick and efficient processing of video streams to identify areas with higher human presence, resulting in a 25% decrease in unnecessary lighting usage.
 
 ### 4. Testing and Fine-tuning
@@ -32,11 +32,11 @@ This repository contains the code and documentation for the "Energy Saving Syste
 - Pandas
 - OpenCV
 - Linux
-- TensorFlow
+- PyTorch
 
 ## Abstract
 
-Up until now, room lights were automated using IR sensors, which can be costly. This project proposes an energy-efficient and cost-effective method that utilizes image analysis to predict areas of a room with more people and focuses lighting on those areas. The approach leverages a CNN-based head detector model to estimate the spatially varying head size, key for head counting in dense crowds. Real-time image analysis, powered by OpenCV and TensorFlow, allows for quick identification of areas with higher human presence, optimizing lighting usage.
+Up until now, room lights were automated using IR sensors, which can be costly. This project proposes an energy-efficient and cost-effective method that utilizes image analysis to predict areas of a room with more people and focuses lighting on those areas. The approach leverages a CNN-based head detector model to estimate the spatially varying head size, key for head counting in dense crowds. Real-time image analysis, powered by OpenCV and PyTorch, allows for quick identification of areas with higher human presence, optimizing lighting usage.
 
 ## Keywords
 
